@@ -67,6 +67,9 @@ class Engine {
             case "polls":
                 return "Опрос";
                 break;
+            case "login":
+                return "Вход";
+                break;
             default:
                 break;
         }
