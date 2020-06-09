@@ -1,3 +1,11 @@
+</main><!-- .content -->
+
+</div><!-- .container-->
+
+<?php include_once "templates/main/right_sidebar.php"; ?>
+
+</div><!-- .middle-->
+
 </div><!-- .wrapper -->
 
 <footer class="footer">

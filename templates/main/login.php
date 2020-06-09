@@ -1,11 +1,11 @@
 <?php
-    include_once "class/Auth.php";
 
     if ($auth->isAuth()) {
         // Если пользователь авторизован, приветствуем:  
-        echo "Здравствуйте, " . $auth->getLogin();
+        echo "Здравствуйте, ".$auth->getLogin();
         //Показываем кнопку выхода
-        echo "<br /><br /><a href=\"?is_exit=1\">Выйти</a>";
+        echo "<br /><br />";
+        echo "<button class=\"btn\" name=\"submit\" onclick=\"document.location.replace('exit.php');\">Выход</button><br>";
     } else {
 
 ?>
