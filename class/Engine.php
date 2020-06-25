@@ -46,7 +46,7 @@ class Engine {
      * Возвращает текст открытой страницы
      */
     public function getContentPage() {
-        return include("templates/main/" . $this->_page_file . ".php");
+        include("templates/main/" . $this->_page_file . ".php");
         
     }
  

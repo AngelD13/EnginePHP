@@ -7,6 +7,7 @@
             <meta name="keywords" content="" />
             <meta name="description" content="" />
             <link href="CSS/style.css" rel="stylesheet">
+            <script src="JS/poll_new.js"> </script>
        </head>
        <body>
        <div class="wrapper">
