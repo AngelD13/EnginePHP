@@ -11,11 +11,7 @@ class Engine {
     public function __construct() {
         if (isset($_GET["page"])) { //Если открыта какая-нибудь страница
             //Записываем в переменную имя открытого файла (из GET запроса)
-            $this->_page_file = $_GET["page"]; 
-            //Небольшая защита
-            $this->_page_file = str_replace(".", null, $_GET["page"]);
-            $this->_page_file = str_replace("/", null, $_GET["page"]);
-            $this->_page_file = str_replace("", null, $_GET["page"]);
+            $this->_page_file =basename($_GET["page"]);
  
              //Проверяем, если шаблон не существует
             if (!file_exists("templates/main/" . $this->_page_file . ".php")) {
