@@ -6,6 +6,7 @@
 
 include_once "class/Engine.php"; //Подключаем класс - движка
 //include_once "class/AuthClass.php"; //Подключаем класс - авторизации
+include_once "class/db.php";
 $engine = new Engine(); //Создаем объект класса Engine
 
 include_once "templates/main/header.php"; //Подключаем шапку сайта

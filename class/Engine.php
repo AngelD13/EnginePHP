@@ -67,6 +67,9 @@ class Engine {
             case "login":
                 return "Вход";
                 break;
+            case "signup":
+                return "Регистрация";
+                break;
             default:
                 break;
         }
