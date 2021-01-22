@@ -1,0 +1,10 @@
+{
+    "name": "angel/engine-php",
+    "authors": [
+        {
+            "name": "AngelD13",
+            "email": "mirgorodfor@gmail.com"
+        }
+    ],
+    "require": {}
+}
